@@ -107,7 +107,7 @@ ${item.count} x ${item.price} som = ${item.count}
             <h1 className="obshi"> 0 som</h1>
           </div>
           <button
-            className="zakaz btn btn-danger"
+            className="zakaz"
             onClick={() => {
               postTest();
               localStorage.clear();
