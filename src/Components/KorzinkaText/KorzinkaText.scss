@@ -1,0 +1,201 @@
+.ddd {
+  text-align: center;
+  margin-top: 200px;
+  color: red;
+  font-style: 30px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+.jjj {
+  width: 25px;
+  height: 29px;
+  margin-top: 3px;
+}
+.cardd {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0.5px rgb(217, 217, 217);
+
+  width: 80%;
+}
+.left {
+  display: flex;
+  gap: 20px;
+}
+.img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 300px;
+}
+.hh1 {
+  font-size: 20px;
+}
+.btn4 {
+  margin-top: 3px;
+  width: 30px;
+  height: 30px;
+  font-weight: 900;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 2px solid red;
+  transition: 0.1s;
+}
+.btn4:hover {
+  box-shadow: 0 0 15px 0.5px rgb(166, 10, 10);
+}
+.btn3 {
+  margin-top: 3px;
+  width: 30px;
+  height: 30px;
+  font-weight: 900;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 2px solid rgb(15, 83, 184);
+  transition: 0.1s;
+}
+.btn3:hover {
+  box-shadow: 0 0 15px 0.5px rgb(10, 124, 166);
+}
+.zzz {
+  gap: 20px;
+  display: flex;
+}
+.obshi {
+  font-size: 22px;
+}
+.p {
+  margin-top: 2px;
+  font-size: 20px;
+  color: red;
+  font-weight: 700;
+}
+.h1 {
+  font-size: 25px;
+  color: rgb(57, 57, 57);
+}
+.text {
+  padding-top: 30px;
+}
+
+.obshi {
+  color: red;
+  text-align: center;
+}
+.zakaz {
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.oplata {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+aside {
+  justify-content: center;
+  display: flex;
+}
+
+.h11 {
+  padding-top: 20px;
+  width: 80px;
+  border-radius: 70%;
+}
+.zakaz {
+  font-size: 12px;
+  border: none;
+  border-radius: 10px;
+}
+.btnd1 {
+  display: none;
+}
+.h11 {
+  position: relative;
+}
+.btnd {
+  border-radius: 20px;
+  width: 350px;
+  height: 400px;
+  background-color: rgb(227, 227, 227);
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin: 50px;
+  z-index: 1;
+  display: block;
+}
+@media only screen and (max-width: 994px) {
+  .cardd {
+    width: 80%;
+    gap: 30px;
+    .h1 {
+      font-size: 19px;
+      font-weight: 800;
+    }
+    .desc{
+        font-size: 12px;
+    }
+    .img{
+        width: 250px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+    .cardd {
+      width: 100%;
+
+      gap: 15px;
+      .text{
+        padding-top: 20px;
+      }
+      .h1 {
+        font-size: 19px;
+        font-weight: 800;
+      }
+      .desc{
+          font-size: 12px;
+      }
+      .img{
+          width: 200px;
+      }
+      .p{
+        font-size: 14px;
+        margin-top: 8px;
+      }
+      .zzz{
+        gap: 10px;
+      }
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    .cardd {
+      width: 100%;
+
+      gap: 10px;
+      .text{
+        padding-top: 10px;
+      }
+      .h1 {
+        font-size: 17px;
+        font-weight: 800;
+      }
+      .desc{
+          font-size: 10px;
+      }
+      .img{
+          width: 170px;
+      }
+      .p{
+        font-size: 12git initpx;
+        margin-top: 8px;
+      }
+      .zzz{
+        gap: 10px;
+      }
+    }
+  }

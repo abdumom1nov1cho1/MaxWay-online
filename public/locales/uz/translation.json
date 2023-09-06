@@ -1,0 +1,61 @@
+{
+    "navulli1":"Menyu",
+    "NavUlLi2":"Filiallar",
+    "NavUlLi3":"Biz haqimizda",
+    "NavUlLi4":"Bog'lanish",
+    "NavUlLISpan":"som",
+    "NavUlLiInput":"Yetkazib berish yoki Olib ketish Qabul qilib olish turini tanlang",
+    "btns1":"🥤Maksibox",
+    "btns2":"🥪Klab-Sendvich",
+    "btns3":"🌯Lavash",
+    "btns4":"🌮Shurma",
+    "btns5":"🍱Donar-Kebab",
+    "btns6":"Shaurma Bagget",
+    "btns7":"🍔Burger",
+    "btns8":"🌭Хот-Дог",
+    "btns9":"🍟Snacks",
+    "btns10":"🥤Drinks",
+    "btns11":"🍰Deserts",
+    "btns12":"🥫Sous",
+    "btns13":"🍚Garnishes",
+
+    "h1":"🍟🍔🥤Maxi-box",
+    "h1-1":"🥪Sendvich",
+    "h1-2":"🌯Lavash",
+    "h1-3":"🌮Shaurma",
+    "h1-4":"🍔Burger",
+    "h1-5":"🌭Hot-Dog",
+    
+    "price":"sum",
+    "click":"Qo'shish",
+    "clickNone":"Olib tashlash",
+
+    "h1_About":"Kompaniya haqida",
+    "p_About":"Kompaniya 2005 yilning fevral oyida Toshkent shahrida tashkil etilgan. Bugungi kunda kompaniyaning Toshkent shahrida 14 ta filiali mavjud.",
+    "p_About_2":"Menyu asosan klub sendvichlari, hot-doglar, gamburgerlar, lavashlar va donorlardan iborat. Bizning ustuvorligimiz - yangilik va sifatli ingredientlar, turli xil qo'shimchalar, maqbul narxlar va mehmonlarning so'rovlariga e'tibor.",
+    "p_About_3":"Har kuni turli xil odamlar MaxWay-dan buyurtma berishadi. Biz esa tashrif buyuruvchilar sonini ham, filiallar sonini ham hisobga olishga harakat qilamiz. Biz pishirgan har bir taom bilan bizni aniqlaymiz. brendli retseptlar va narx va sifatning mukammal holatini qidirmoqdasiz, bu sizning sevimli brendingiz bo'lishda davom etadi.",
+    "p_About_4":"Agar siz kutilmaganda biz tomondan sifatsiz xizmat ko'rsatish yoki past sifatli pishirilgan taomlarga duch kelsangiz, albatta @maxwaymasterfood_bot manziliga yozing. Biz ijobiy va salbiy fikr-mulohazalarni mamnuniyat bilan qabul qilamiz. Mehmonning shikoyati - bu bizga o'sish uchun imkoniyat beradigan sovg'adir.",
+
+    "h4_Foot":"Filiallar",
+    "h4_Foot_2":"Haqida",
+    "h4_Foot_3":"Contact",
+    "h4_Foot_4":"Barcha huquqlar himoyalangan",
+
+
+    "h1_Contacts":"FiliFiliallarals",
+    "span":"03:00 gacha ochiq",
+    "p":"O‘zbekiston, Toshkent, Oltinkul ko‘chasi, 10-uy",
+    "P_Filial":"Jadval",
+    "P_Filial_Tel":"Telefon",
+    "P_Filial_Day":"dus-yaksh",
+
+
+    "h1_Contacts_":"Kontaktlar",
+    "h5_cont":"Fikr qoldiring yoki savol bering",
+    "mn":"Yagona aloqa markazi",
+    "ddd":"Savat boʻsh",
+    "hh1":"Barcha mahsulotlar",
+    "hh2":"Yetkazib berish",
+    "zakaz_btn":"Ro'yxatdan o'chirilishda davom etish"
+
+}

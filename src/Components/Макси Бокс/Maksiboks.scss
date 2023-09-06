@@ -1,0 +1,298 @@
+.maks {
+  color: black;
+}
+.parentt {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.card {
+  box-shadow: 0 0 20px 1px rgb(229, 229, 229);
+  .img {
+    width: 100%;
+    padding-top: 14px;
+  }
+  .card__texts {
+    padding: 15px;
+    .h1 {
+      padding-top: 20px;
+      font-size: 19px;
+      font-weight: 700;
+      color: black;
+    }
+    .desc {
+      font-size: 13px;
+      font-weight: 700;
+      color: grey;
+    }
+    .p {
+      color: red;
+      font-weight: 600;
+    }
+    .btns {
+      display: flex;
+      justify-content: space-between;
+
+      .btn {
+        width: 100px;
+        height: 40px;
+        background-color: #51267d;
+        color: white;
+        font-size: 11px;
+        border-radius: 19px;
+      }
+      .btn2 {
+        width: 100px;
+        height: 40px;
+        background-color: #c82828;
+        color: white;
+        font-size: 11px;
+        font-weight: 500;
+        border-radius: 19px;
+        border: none !important ;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .maks {
+    color: black;
+  }
+  .parentt {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+  }
+  .card {
+    box-shadow: 0 0 20px 1px rgb(229, 229, 229);
+    .img {
+      width: 100%;
+      padding-top: 12px;
+    }
+    .card__texts {
+      padding: 13px;
+      .h1 {
+        padding-top: 20px;
+        font-size: 17px !important ;
+        font-weight: 700;
+        color: black;
+      }
+      .desc {
+        font-size: 11px !important;
+        font-weight: 700;
+        color: grey;
+      }
+      .p {
+        color: red;
+        font-size: 14px;
+        margin-top: 4px;
+        font-weight: 600;
+      }
+      .btns {
+        display: flex;
+        justify-content: space-between;
+
+        .btn {
+          width: 90px;
+          height: 35px;
+          background-color: #51267d;
+          color: white;
+          font-size: 9px;
+          border-radius: 19px;
+        }
+        .btn2 {
+          width: 90px;
+          height: 35px;
+          background-color: #c82828;
+          color: white;
+          font-size: 10px;
+          font-weight: 500;
+          border-radius: 19px;
+          border: none !important ;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .maks {
+    color: black;
+  }
+  .parentt {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+  .card {
+    box-shadow: 0 0 20px 1px rgb(229, 229, 229);
+    .img {
+      width: 100%;
+      padding-top: 12px;
+    }
+    .card__texts {
+      padding: 13px;
+      .h1 {
+        padding-top: 20px;
+        font-size: 17px !important ;
+        font-weight: 700;
+        color: black;
+      }
+      .desc {
+        font-size: 11px !important;
+        font-weight: 700;
+        color: grey;
+      }
+      .p {
+        color: red;
+        font-size: 14px;
+        margin-top: 4px;
+        font-weight: 600;
+      }
+      .btns {
+        display: flex;
+        justify-content: space-between;
+
+        .btn {
+          width: 90px;
+          height: 35px;
+          background-color: #51267d;
+          color: white;
+          font-size: 9px;
+          border-radius: 19px;
+        }
+        .btn2 {
+          width: 90px;
+          height: 35px;
+          background-color: #c82828;
+          color: white;
+          font-size: 10px;
+          font-weight: 500;
+          border-radius: 19px;
+          border: none !important ;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 770px) {
+    .maks{
+        color: black;
+    }
+    .parentt {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+    }
+    .card {
+      box-shadow: 0 0 20px 1px rgb(229, 229, 229);
+      .img {
+        width: 100%;
+        padding-top: 12px;
+      }
+      .card__texts {
+        padding: 13px;
+        .h1 {
+          padding-top: 20px;
+          font-size: 17px !important ;
+          font-weight: 700;
+          color: black;
+        }
+        .desc{
+            font-size: 11px !important;
+            font-weight: 700;
+            color: grey;
+        }
+        .p {
+          color: red;
+          font-size: 14px;
+          margin-top: 4px;
+          font-weight: 600;
+        }
+        .btns {
+          display: flex;
+          justify-content: space-between;
+    
+          .btn {
+            width: 90px;
+            height: 35px;
+            background-color: #51267d;
+            color: white;
+            font-size: 9px;
+            border-radius: 19px;
+          }
+          .btn2 {
+            width: 90px;
+            height: 35px;
+            background-color: #c82828;
+            color: white;
+            font-size: 10px;
+            font-weight: 500;
+            border-radius: 19px;
+            border: none !important ;
+          }
+        }
+      }
+    }
+}
+@media only screen and (max-width: 475px) {
+    .maks{
+        color: black;
+        font-size: 22px;
+    }
+    .parentt {
+        margin: 0 auto !important;
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+    }
+    .card {
+      box-shadow: 0 0 20px 1px rgb(229, 229, 229);
+      .img {
+        width: 100%;
+        padding-top: 12px;
+      }
+      .card__texts {
+        padding: 9px;
+        .h1 {
+          padding-top: 20px;
+          font-size: 15px !important ;
+          font-weight: 700;
+          color: black;
+        }
+        .desc{
+            font-size: 9px !important;
+            font-weight: 700;
+            color: grey;
+        }
+        .p {
+          color: red;
+          font-size: 12px;
+          margin-top: 4px;
+          font-weight: 600;
+        }
+        .btns {
+          display: flex;
+          justify-content: space-between;
+    
+          .btn {
+            width: 85px;
+            height: 30px;
+            background-color: #51267d;
+            color: white;
+            font-size: 8px;
+            border-radius: 19px;
+          }
+          .btn2 {
+            width: 85px;
+            height: 30px;
+            background-color: #c82828;
+            color: white;
+            font-size: 10px;
+            font-weight: 500;
+            border-radius: 19px;
+            border: none !important ;
+          }
+        }
+      }
+    }
+}
