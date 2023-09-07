@@ -91,7 +91,7 @@ const Navbar = () => {
               {/* <!-- Notifications --> */}
               <nav className="bbb">
                 <div className="container-fluid">
-                  <ul className="navbar-nav">
+                  <ul className="dsa navbar-nav">
                     {/* <!-- Icon dropdown --> */}
                     <li className="nav-item dropdown">
                       <a

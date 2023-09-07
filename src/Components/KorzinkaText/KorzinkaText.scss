@@ -203,4 +203,28 @@ aside {
         gap: 10px;
       }
     }
+    .btnd{
+      width: 100%;
+
+        .hh1{
+          font-size: 16px;
+        }
+        .obshi{
+          font-size: 17px;
+        }
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .btnd{
+      width: 100%;
+        .h11{
+          width: 50px;
+        }
+        .hh1{
+          font-size: 12px;
+        }
+        .obshi{
+          font-size: 13px;
+        }
+    }
   }
