@@ -214,11 +214,48 @@ aside {
         }
     }
   }
+  @media only screen and (max-width: 450px) {
+    .cardd {
+      width: 100%;
+
+      gap: 10px;
+      .text{
+        padding-top: 10px;
+      }
+      .h1 {
+        font-size: 15px;
+        font-weight: 800;
+      }
+      .desc{
+          font-size: 8px;
+      }
+      .img{
+          width: 150px;
+      }
+      .p{
+        font-size: 12px;
+        margin-top: 8px;
+      }
+      .zzz{
+        gap: 5px;
+      }
+    }
+    .btnd{
+      width: 100%;
+
+        .hh1{
+          font-size: 16px;
+        }
+        .obshi{
+          font-size: 17px;
+        }
+    }
+  }
   @media only screen and (max-width: 380px) {
     .btnd{
       width: 100%;
         .h11{
-          width: 50px;
+          width: 5  0px;
         }
         .hh1{
           font-size: 12px;
