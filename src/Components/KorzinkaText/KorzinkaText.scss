@@ -243,8 +243,18 @@ aside {
           font-weight: 500;
           background: transparent;
           border: none;
+        }
+        .btn3{
+          margin-top: 3px;
+          font-weight: 500;
+          background: transparent;
+          border: none;
           
         }
+        .jjj{
+        width: 18px;
+        height: 18px;
+        margin-top: 9px;
       }
     }
     .btnd{
@@ -258,17 +268,18 @@ aside {
         }
     }
   }
-  @media only screen and (max-width: 380px) {
-    .btnd{
-      width: 100%;
-        .h11{
-          width: 5  0px;
-        }
-        .hh1{
-          font-size: 12px;
-        }
-        .obshi{
-          font-size: 13px;
-        }
-    }
+}
+@media only screen and (max-width: 380px) {
+  .btnd{
+    width: 100%;
+      .h11{
+        width: 5  0px;
+      }
+      .hh1{
+        font-size: 12px;
+      }
+      .obshi{
+        font-size: 13px;
+      }
   }
+}
