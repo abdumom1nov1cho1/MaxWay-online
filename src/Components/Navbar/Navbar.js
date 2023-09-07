@@ -9,8 +9,16 @@ const Navbar = () => {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
-
+  const currentLang = i18n.language;
   const { items } = useCart();
+  let img = ""
+    if (currentLang === "uz") {
+        img = "uz.svg";
+    } else if (currentLang === "ru") {
+        img = "ru.svg";
+    } else if (currentLang === "en") {
+        img = "en.svg";
+    }
   return (
     <div>
       {/* <!-- Navbar --> */}
@@ -94,7 +102,7 @@ const Navbar = () => {
                         data-mdb-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        <i className="flag-uzbekistan flag m-0"></i>
+                        <img src={process.env.PUBLIC_URL + "/images/" + img} alt="" />
                       </a>
                       <ul
                         className="dropdown-menu"
@@ -105,11 +113,10 @@ const Navbar = () => {
                           onClick={() => changeLanguage("uz")}
                           href=" "
                         >
-                          <i className="flag-uzbekistan flag"></i>Uzbekistan
+                          <img src={process.env.PUBLIC_URL + "/images/uz.svg"} alt="" />Uzbekistan
                           <i className="fa fa-check text-success ms-2"></i>
                         </li>
                         <li>
-                          <hr className="dropdown-divider" />
                         </li>
 
                         <li>
@@ -118,7 +125,7 @@ const Navbar = () => {
                             onClick={() => changeLanguage("ru")}
                             href=" "
                           >
-                            <i className="flag-russia flag"></i>Русский
+                            <img src={process.env.PUBLIC_URL + "/images/ru.svg"} alt="" />Русский
                           </li>
                         </li>
                         <li>
@@ -127,7 +134,7 @@ const Navbar = () => {
                             onClick={() => changeLanguage("en")}
                             href=" "
                           >
-                            <i className="flag-uk flag"></i>English
+                            <img src={process.env.PUBLIC_URL + "/images/en.svg"} alt="" />English
                           </li>
                         </li>
                       </ul>
