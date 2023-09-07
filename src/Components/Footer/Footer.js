@@ -18,7 +18,7 @@ function Footer() {
              
 
             <div className="img">
-            <img src="https://maxway.uz/_next/image?url=https%3A%2F%2Fcdn.delever.uz%2Fdelever%2F63909f85-e7e7-42b8-9312-c92f13991a37&w=64&q=75" alt="" />
+            <img src="https://maxway.uz/_next/image?url=https%3A%2F%2Fcdn.delever.uz%2Fdelever%2Fcfff938f-a7f6-4694-972e-c7fa9c0f68ba&w=48&q=75" alt="" />
             </div>
                 <div className="foot_btn">
                     <h4 className='h4_Foot'> {t("h4_Foot")} </h4>

@@ -104,23 +104,28 @@ aside {
 .h11 {
   padding-top: 20px;
   width: 80px;
-  border-radius: 70%;
 }
 .zakaz {
   font-size: 12px;
   border: none;
+  background-color: #fff;
+  font-weight: 700;
   border-radius: 10px;
+  transition: 0.1s;
+}
+.zakaz:hover {
+  border: 1px solid red;
+  color: red;
+
 }
 .btnd1 {
   display: none;
 }
-.h11 {
-  position: relative;
-}
+
 .btnd {
   border-radius: 20px;
-  width: 350px;
-  height: 400px;
+  width: 550px;
+  height: 320px;
   background-color: rgb(227, 227, 227);
   justify-content: center;
   text-align: center;

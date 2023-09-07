@@ -95,7 +95,7 @@ ${item.count} x ${item.price} som = ${item.count}
         <div className="btnd">
           <img
             className="h11"
-            src="https://logobank.uz:8005/media/logos_preview/preview_MW-01.png"
+            src="https://maxway.uz/_next/image?url=https%3A%2F%2Fcdn.delever.uz%2Fdelever%2Fcfff938f-a7f6-4694-972e-c7fa9c0f68ba&w=48&q=75"
             alt=""
           />
           <div className="oplata">
