@@ -10,6 +10,7 @@
   box-shadow: 0 0 20px 1px rgb(229, 229, 229);
   .img {
     width: 100%;
+    border-bottom-left-radius: 0px;
     padding-top: 14px;
   }
   .card__texts {
@@ -266,7 +267,7 @@
         }
         .p {
           color: red;
-          font-size: 12px;
+          font-size: 9px;
           margin-top: 4px;
           font-weight: 600;
         }
@@ -275,7 +276,7 @@
           justify-content: space-between;
     
           .btn {
-            width: 85px;
+            width: 75px;
             height: 30px;
             background-color: #51267d;
             color: white;
