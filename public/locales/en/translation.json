@@ -27,8 +27,8 @@
     "h1-5":"🌭Hot-Dog",
     
     "price":"som",
-    "click":"Add to card",
-    "clickNone":"Remove from cart",
+    "click":"Added",
+    "clickNone":"Remove",
 
 
     "h1_About":"About company",
