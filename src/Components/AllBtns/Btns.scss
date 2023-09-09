@@ -1,16 +1,18 @@
 
  .btn1{
-    width: 120px;
+    width: 140px;
     height: 40px;
+    padding: 10px 19px;
     text-align: center;
     align-content: center;
     gap: 10px;
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
     color: rgb(100, 99, 99);
-    text-decoration: none;
     border: none;
+
+    border-radius: 10px;
     display: flex;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     transition: 0.2s;
 }
@@ -19,26 +21,29 @@
     background-color: rgb(220, 220, 220);
 }
 .slider{
-    gap: 5px;
+    gap: 10px;
+    height: 70px;
     justify-content: center;
     margin-top: 20px;
 
 }
 @media only screen and (max-width: 1230px){
     .btn1{
+        width: 125px;
+        height: 40px;
+        padding: 10px 18px;
+        text-align: center;
+        align-content: center;
+        gap: 9px;
         background-color: #f0f0f0;
         color: rgb(100, 99, 99);
-        text-decoration: none;
         border: none;
+    
+        border-radius: 10px;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0.75rem;
-        font-size: 11px;
+        font-size: 10px;
         font-weight: 500;
-        height: 2.5rem;
-        padding: 0.875rem 2rem;
-        transition: .15s ease;
+        transition: 0.2s;
     }
 
 }
