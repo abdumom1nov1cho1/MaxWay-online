@@ -51,7 +51,10 @@ const Btns = () => {
 
   return (
     <div>
-        <header>
+        <header className='container' >
+        <h1 id="Max" data-aos="fade-up" className="maks">
+            {t("navulli1")}
+          </h1>
             <div className="container">
                 <div className="slider">
                     <Slider {...settings}>
