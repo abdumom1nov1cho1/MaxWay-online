@@ -1,6 +1,6 @@
 import React from "react";
 import "../Navbar/Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useCart } from "react-use-cart";
 import { useTranslation } from "react-i18next";
 
@@ -53,24 +53,26 @@ const Navbar = () => {
             {/* <!-- Left links --> */}
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/" class="nav-link active" aria-current="page">
+                <NavLink to="/" className="nav-link
+                
+                " activeClassName="active" aria-current="page">
                   {t("navulli1")}
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/About" class="nav-link">
+                <NavLink to="/About" className="nav-link" activeClassName="active">
                   {t("NavUlLi2")}
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/Filials" class="nav-link ">
+                <NavLink to="/Filials" className="nav-link " activeClassName="active">
                   {t("NavUlLi3")}
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/Contact" class="nav-link ">
+                <NavLink to="/Contact" className="nav-link " activeClassName="active">
                   {t("NavUlLi4")}
-                </Link>
+                </NavLink>
               </li>
             </ul>
             {/* <!-- Left links --> */}
@@ -167,7 +169,7 @@ const Navbar = () => {
                   aria-expanded="false"
                 >
                   <i
-                    class="icons fa-solid fa-user"
+                    className="icons fa-solid fa-user"
                     style={{ color: "#51267d" }}
                   ></i>
                 </a>
@@ -179,14 +181,14 @@ const Navbar = () => {
                   aria-labelledby="navbarDropdownMenuAvatar"
                 >
                   <li>
-                    <a className="dropdown-item" href=" ">
-                      My profile
-                    </a>
+                    <NavLink to="/signUp"  activeClassName="active" className="dropdown-item" href=" ">
+                      Sign Up
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href=" ">
-                      Settings
-                    </a>
+                    <NavLink to="/signIn"  activeClassName="active" className="dropdown-item" href=" ">
+                      Sign In
+                    </NavLink>
                   </li>
                   <li>
                     <a className="dropdown-item" href=" ">

@@ -36,9 +36,6 @@
   margin-top: 10px;
   color: #51267d;
 }
-.btns{
-    
-}
 .icon {
   justify-content: center;
   width: 50px;
@@ -76,4 +73,7 @@ ul li {
   .maps__texts{
     display: none;
   }
+}
+.active{
+  color: #000;
 }
