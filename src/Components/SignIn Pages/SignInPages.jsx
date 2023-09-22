@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import "./SignInPages";
-import { GetAPIFunc } from "./../module/api";
+import { GetAPIFunc } from "../module/api";
 import { Context } from "../../Context";
 
 const SignInPages = () => {
