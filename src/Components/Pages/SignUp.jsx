@@ -8,7 +8,9 @@ const SignUp = () => {
     <div>
         <Navbar/>
         <SignUpPages/>
+
         <Footer/>
+        
     </div>
   )
 }

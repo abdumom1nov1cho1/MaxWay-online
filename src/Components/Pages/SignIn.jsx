@@ -8,6 +8,7 @@ const SignIn = () => {
     <div>
         <Navbar/>
         <SignInPages/>
+        
         <Footer/>
     </div>
   )

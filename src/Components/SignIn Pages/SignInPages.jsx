@@ -51,6 +51,7 @@ const SignInPages = () => {
             placeholder="@gmail.com"
             onChange={(e) => setUser(e.target.value)}
           />
+          
           <input
             data-aos="fade-up-left"
             required
