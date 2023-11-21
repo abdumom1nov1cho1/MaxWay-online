@@ -11,6 +11,8 @@ const SignUp = () => {
 
         <Footer/>
         
+
+        
     </div>
   )
 }

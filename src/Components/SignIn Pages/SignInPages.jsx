@@ -43,6 +43,7 @@ const SignInPages = () => {
           <h1 data-aos="fade-up" className="app__register__h1">
             Sign In
           </h1>
+          
           <input
             data-aos="fade-up-right"
             required
