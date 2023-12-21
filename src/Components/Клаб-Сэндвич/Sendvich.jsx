@@ -14,6 +14,7 @@ const Section = () => {
     setarray(products);
   }, []);
 
+  
   const newArray = array.filter((el) => el.category === "Klab-Sendvich");
 
   return (
