@@ -14,12 +14,18 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />;
+        
         <Route path="/About" element={<About />} />;
         <Route path="/Contact" element={<Contact />} />;
+
         <Route path="/Filials" element={<Filials />} />;
+
         <Route path="/Korzinka" element={<Korzinka />} />;
+
         <Route path="/signIn" element={<SignIn />} />;
+
         <Route path="/signUp" element={<SignUp />} />;
+
       </Routes>
     </>
   );
